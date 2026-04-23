@@ -16,12 +16,13 @@ Tugas UTS Sistem Terdistribusi dan Parallel. Layanan agregator log yang menerima
 ## Cara Menjalankan
 
 ### Menggunakan Docker Compose (Nilai plus)
-1. Build dan jalankan layanan:
+1. Jangan lupa jalankan Docker Desktop terlebih dahulu
+2. Build dan jalankan layanan:
    ```bash
    docker compose up --build
    ```
-2. Aggregator akan tersedia di `http://localhost:8000`.
-3. Publisher akan mulai mengirimkan event secara otomatis (termasuk simulasi duplikasi).
+3. Aggregator akan tersedia di `http://localhost:8000`.
+4. Publisher akan mulai mengirimkan event secara otomatis (termasuk simulasi duplikasi).
 
 ### Menjalankan Secara Lokal
 1. Install dependensi:
